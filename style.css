@@ -15,6 +15,7 @@ body {
 h1 {
   cursor: pointer;
   user-select: none;
+  text-align: center;
 }
 
 img {
@@ -110,8 +111,8 @@ img {
 .heart-box img{
   position: absolute;
   width: 70px;
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
   animation: heartBeat 2s backwards ease infinite;
   transform: scale(1);
 }
